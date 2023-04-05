@@ -8,3 +8,5 @@ class Fisica( Pessoa ):
         self.cpf = cpf
         self.empresa = empresa
     
+    def setEmpresa(self, empresa):
+        self.empresa = empresa
